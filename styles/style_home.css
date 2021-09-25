@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 70vh;
+    background-color: blue;
+ }
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;
+}
+
+.main{
+    width: 60%;
+    height: 40%;
+    color:white;
+    background-color: solid rgb(36, 36, 255);
+    border-collapse: collapse;
+    left: 20%;
+    margin-right: 18%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 70px;
+}
+.main button{
+    color: white;
+    background-color:  blue;
+    border-collapse: collapse;
+    border: transparent;
+    height: 60%;
+    cursor:pointer;
+}
+
+
+.IEEE_img{
+    width: fit-content;
+}
+
+.Year{
+    position: absolute;
+    right: 1% ;
+    top:0;
+    font-size: 20px;
+    color: white;
+}
