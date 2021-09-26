@@ -1,14 +1,12 @@
 body{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-color: blue;
-
-    background-image: url(../Photoes/future1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
  }
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
+    width: 0;
     background: transparent;
 }
 
@@ -16,7 +14,7 @@ body{
     width: 60%;
     height: 40%;
     color:white;
-    background-color: solid rgb(36, 36, 255);
+    background-color: solid transparent;
     border-collapse: collapse;
     left: 20%;
     margin-right: 18%;
@@ -29,7 +27,7 @@ body{
 }
 .main button{
     color: white;
-    background-color:  blue;
+    background-color:  transparent;
     border-collapse: collapse;
     border: transparent;
     height: 60%;

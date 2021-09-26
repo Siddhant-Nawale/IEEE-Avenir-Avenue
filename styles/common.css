@@ -3,6 +3,6 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
+    width: 0;
     background: transparent;
 }
