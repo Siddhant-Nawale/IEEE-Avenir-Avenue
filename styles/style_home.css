@@ -2,6 +2,10 @@ body{
     width: 100%;
     height: 70vh;
     background-color: blue;
+
+    background-image: url(../Photoes/future1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
