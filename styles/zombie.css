@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0; 
+    margin: 0;
+    display: grid;
+    background-image: url('../Photoes/zombiebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+  
+.shop button{
+    height: 90px;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 60px;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    background-color: transparent;
+    color:white;
+    transition: all 1.5s ease;
+    outline:none;
+    cursor: pointer;
+    top:;
+  }
+  
+  .shop button:hover{
+    background-color: blue;
+    
+    border: 2px rgb(1, 1, 170);
+    color: white;
+  }} 
